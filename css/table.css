@@ -1,0 +1,28 @@
+table{
+    width: 50%;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+    background-color: #bbdefb;
+}
+
+th, td{
+    border: 1px solid #444444;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background-color: #646191;
+    color: white;
+}
+
+  thead tr {
+    background-color: #0d47a1;
+    color: #ffffff;
+  }
+
+  tbody tr:nth-child(2n+1) {
+    background-color: rgba(255, 255, 255, 0.815);
+  }
+  tbody tr:nth-child(2n) {
+    background-color: #ffffff;
+  }

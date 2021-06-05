@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>수강신청</title>
+</head>
+
+<body>
+    <form>
+        <div class="wrap">
+            <div class="form-wrap">
+                <h1 class="social-icons">수강신청</h1>
+                <input type="text" class="input-field" placeholder="교과목 이름을 입력하세요" id="subject_name"
+                    name="subject_name" /><br>
+                <input type="text" class="input-field" placeholder="교과목 시작 시간을 입력하세요(ex : 12:00)"
+                    id="subject_start_time" name="subject_start_time" /><br>
+                <input type="text" class="input-field" placeholder="교과목 종료 시간을 입력하세요(ex : 12:00)" id="subject_end_time"
+                    name="subject_end_time" /><br><br>
+                <input type="submit" class="submit2" id="enrollbtn" value="수강등록" style="color: white;"
+                    formaction="/suganginsert" formmethod="POST" /><br>
+                <input type="submit" class="submit2" id="printbtn" value="수강표 출력" style="color: white;"
+                    formaction="/sugangprint" formmethod="GET" /><br>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
