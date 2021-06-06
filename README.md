@@ -10,17 +10,17 @@ term project 코드 명세서
   <tr><td>7</td><td>GET</td><td>/sugangprint</td><td>수강표 출력</td></tr>
  </table>
    
-termproject.html
+/
 - 로그인 페이지인 첫 메인 화면이다.
 - 아이디, 비밀번호 입력하는 input태그가 있고, 로그인, 회원가입 버튼이 있다.
 - 태그들의 css는 style.css에 정의해 두었다.
 
-signup.html
+/signup
 - 회원가입 페이지이다.
 - 아이디, 비밀번호 입력하는 input태그가 있고, 회원가입 버튼이 있다.
 - 태그들의 css는 style.css에 정의해 두었다.
 
-sugang.html
+/sugang
 - 수강신청 페이지이다.
 - 수강신청 할 과목명, 강의 시작 시간, 강의 끝 시간을 입력하는 input 태그가 있고, 수강신청, 수강표 출력 버튼이 있다.
 - 강의 시작 시간과 끝 시간은 시간:분 형태로 입력해야한다.
