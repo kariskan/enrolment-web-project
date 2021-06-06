@@ -1,13 +1,13 @@
 term project 코드 명세서
 <table>
   <tr><td>Index</td><td>Method</td><td>URI</td><td>Description</td></tr>
-  <tr><td>1</td><td>GET</td><td>termproject.html</td><td>로그인</td></tr>
-  <tr><td>2</td><td>GET</td><td>signup.html</td><td>회원가입 페이지</td></tr>
-  <tr><td>3</td><td>GET</td><td>sugang.html</td><td>수강신청 페이지</td></tr>
+  <tr><td>1</td><td>GET</td><td>/</td><td>로그인</td></tr>
+  <tr><td>2</td><td>GET</td><td>/signup</td><td>회원가입 페이지</td></tr>
+  <tr><td>3</td><td>GET</td><td>/sugang</td><td>수강신청 페이지</td></tr>
   <tr><td>4</td><td>POST</td><td>/sign</td><td>회원가입 시 아이디 중복체크</td></tr>
   <tr><td>5</td><td>POST</td><td>/tempsignin</td><td>아이디/패스워드 체크</td></tr>
-  <tr><td>6</td><td>POST</td><td>suganginsert</td><td>수강신청 중복 체크</td></tr>
-  <tr><td>7</td><td>GET</td><td>sugangprint</td><td>수강표 출력</td></tr>
+  <tr><td>6</td><td>POST</td><td>/suganginsert</td><td>수강신청 중복 체크</td></tr>
+  <tr><td>7</td><td>GET</td><td>/sugangprint</td><td>수강표 출력</td></tr>
  </table>
    
 termproject.html
